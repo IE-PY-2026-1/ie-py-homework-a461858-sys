@@ -5,9 +5,11 @@ tasks =[]
 categories =[]
 priorities = []
 
-
-print('투두리스트 입력')
+for i in range(3):
+    print(f'{i}번 째 투두리스트 입력')
 t_input = input('투두리스트 입력: ')
+if t_input == '그만'
+   break
 c_input = input('목록(공부/취미/자기개발/기타): ')
 p_input = int(input('중요도(1-3): '))
 
