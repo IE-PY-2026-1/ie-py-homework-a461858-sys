@@ -28,7 +28,7 @@ elif choice == '2':
   print(f'[중요도 {select_priority} 목록 결과];)
   if todo_list[0][2] == selsect_priority:
      print(f'{todo_list[0][0]} (카테고리: {todo_list[0][1]})')
-  else:
+   else:
      print(f'해당 중요도({select_priority}) 와 일치하는 할 일이 없습니다.')
 
 
@@ -37,7 +37,7 @@ elif choice == '3':
   print(f'[{select_cat} 카테고리 조회 결과]')
   if todo_list[0][1] == search_cat:
      print(f'{todo_list[0][0]} (중요도 : {todo_list[0][2]})')
-  else:
+   else:
      print(f'{search_cat} 카테고리에 해당하는 할 일이 없습니다.')
 else:
   print('잘못된 입력입니다. 1~3번 메뉴를 선택해 주세용.')
