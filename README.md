@@ -110,7 +110,7 @@ https://github.com/IE-PY-2026-1/ie-py-homework-a461858-sys/blob/main/%EC%9D%B4%E
 
      
 ### **📁 증빙 자료:**
-  * [3차_AI협업캡처.pdf 첨부 완료] (첨부 후 링크)
+  * [3차_AI협업캡처.pdf 첨부 완료] (https://github.com/IE-PY-2026-1/ie-py-homework-a461858-sys/blob/main/%EC%9D%B4%EC%88%98%EC%97%B0%203%EC%B0%A8%20%EA%B3%BC%EC%A0%9C.pdf)
   * [3차과제_실행결과.jpg]
 <br>
 
