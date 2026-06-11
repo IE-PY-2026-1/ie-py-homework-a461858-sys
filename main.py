@@ -1,10 +1,20 @@
 # 파일이름 : 2차과제
 # 작 성 자 : 60251785 이수연
 
-tasks =[]
-categories =[]
-priorities = []
+todo_data = []
 
+while True:
+    print("행운의 투두리스트")
+        print("1. 새로운 할 일 등록")
+        print("2. 전체 목록 조회")
+        print("3. 특정 날짜로 검색")
+        print("4. 파일에 저장하기")
+        print("5. 프로그램 종류")
+
+    try:
+        choice = int(input("메뉴를 선택하세요: ")
+                     except Va
+    
 def add_task():
     global tasks, categories, priorities
     print("----[입력 메뉴] 할 일 등록----")
