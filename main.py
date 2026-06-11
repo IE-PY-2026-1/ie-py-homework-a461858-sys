@@ -67,16 +67,16 @@ def view_task():
             match_count = 0
             for row in todo_list:
                 if row[3] == select_p:
-                    status = '매우 긴급!!'
-                elif select_p == 2:
-                    status = '보통'
-                else:
-                    status = '여유~'
+                    if select == 3:
+                        status = '매우 긴급!!'
+                    elif select_p == 2:
+                        status = '보통'
+                    else:
+                        status = '여유~'
 
-            print(f'[할 일: {row[1]}, 날짜: {row[0]}] -> {status}')
-            match_count += 1
+                    print(f'[할 일: {row[1]}, 날짜: {row[0]}] -> {status}')
+                    match_count += 1
 
-        
         if match_count == 0:
             print('해당 중요도와 일치하는 할 일이 없습니다.')
     except ValueError:
@@ -109,17 +109,18 @@ def view_task():
         if match_count == 0:
             print('해당 날짜에 등록된 할 일이 없습니다.')
     else:
-      print('잘못된 입력입니다. 1~4번 메뉴를 선택해 주세요.')
+        print('잘못된 입력입니다. 1~4번 메뉴를 선택해 주세요.')
 
 
 
 def save_to_flie():
     try:
-        with open ("todolist.txt", "w", encoding="utf-8") as f:
+        with open("todolist.txt", "w", encoding="utf-8") as f:
             for row in todo_list:
                 line = str(row[0]) + "," + str(row[1]) + "," + str(row[2]) + "," + str(row[3])
                 f.write(line)
             print("파일이 안전하게 저장되었습니다.")
+            
     except ValueError:
         print("파일 저장 중 데이터 오류가 발생했습니다.")
 
